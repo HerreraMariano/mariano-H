@@ -1,4 +1,276 @@
-
-    head{
-        background-color:orange;
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0%;
+    padding: 0vw;
+    border: 0;
+    
+    
+}
+header{
+    background-color: #EAC926;
+    width: 100vw;
+    padding: 0vw;
+    margin: 0vw;
+    size: 100%;
     }
+header .section1{
+    width: 100vw;
+    text-align: center;
+    }
+.cajaheader{
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: auto;
+    
+    }
+ul.section2{
+    
+    width: 50%;
+   display: flex;
+   margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 3vw;
+    
+    
+    
+}
+ul.section3{
+    
+    width: 50%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 3vw;
+}
+
+
+.burguer-menu{
+text-align: center;
+padding-bottom: 5px;
+}
+
+body{
+    font-size: 12px;
+    width: 100vw;
+    height: 30vh;
+    padding: 0%;
+    margin: 0% 0%;
+    background-color: #ebebeb;
+    
+
+    }
+    
+    
+    .logo-img{
+        width: 180px;
+    }
+    div img{
+        width: 100vw;
+        padding: 0%;
+        margin: 0%;
+        
+        
+    }
+    a{
+        text-decoration: none;
+        color: black
+    }
+    ul{
+        list-style: none;
+        
+    }
+    
+     /* MAIN */
+    main{
+        font-size: auto;
+        width: 90%;
+        padding: 5vw;
+        margin: 0;
+        box-sizing: border-box;
+        text-align: center;
+        
+        
+    }
+    .contenedor, .contenedor2{
+        width: 100%;
+        margin: 0;
+        padding: 5%;
+        
+    }
+    .contenedor article,.contenedor2 article{
+        
+        width: 100%;
+        margin: 5%;
+        padding: 5%;
+        background-color: white;
+        
+        }
+    .contenedor .img, .contenedor2 .img{
+        width: 80% ;
+        margin-bottom: 30%;
+        padding: 5px;
+        
+        text-align: center;
+        }
+        
+      article{
+        margin: 4px 4px;
+        padding: 8px 8px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    article, p{
+        text-align: center;
+         width: 100%;
+         font-size: 14px;
+    }
+    .fa-truck{
+        
+        color:#39b54a;
+        border-color:  #39b54a;
+        border-radius: 60px;
+        border-style: solid;
+        border-width: 1px;
+        font-size: 18px;
+        margin: 6px;
+        padding: 6px;
+        margin-right: 95%;
+    }
+    /* titulares*/
+     main h3{
+        font-size: 24px;
+        color: #666;
+        text-align: center;
+    }
+    /* precios*/
+       article .h4{
+        font-size: 18px;
+        width: 100%;
+        text-align: right;
+        
+        display: flex;
+        
+    }
+    article .descuento{
+        color: #39b54a;
+        font-size: 16px;
+        width: 100%;
+        text-align: right;
+        display: flex;
+    }
+ 
+    .alineacion{
+        
+        justify-content: space-between;
+    }
+    
+    /* FOOTER */
+    footer{
+        
+        background-color: #ebebeb;
+        width: 100vw;
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    .ali-footer{
+        display: flex;
+    }
+    .fa-bars{
+        padding :10px;
+    margin: auto;
+    color: white;
+    background-color: #1259c3;
+    border-radius: 5px;
+    }
+        
+    #card{
+        color: #1259c3;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    #gift{
+        color: #1259c3;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    #seguridad{
+        color: #1259c3;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    /* incluye texto sin titulo*/
+    .tarjeta{
+        width: 30%;
+        height: 90%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 22px;
+        margin: 5%;
+    }
+    .envio{
+        width: 30%;
+        height: 90%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 22px;
+        margin: 5%;
+    }
+    .seguridad{
+        width: 30%;
+        height: 90%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 22px;
+        margin: 5%;
+    }
+    .copyright{
+        text-align: center;
+        line-height: 22px;
+    }
+    @media (min-width: 320px) {
+        
+          ul.section3{
+             display: none;
+          }
+          ul.section2{
+            display: none;
+          }
+
+        }
+    @media (min-width: 768px) {
+           .burguer-menu{
+            display: none;
+           }
+           ul.section3{
+            display: flex;
+            margin-left: 15%;
+            justify-content: space-between;
+            text-align:left
+           }
+           ul.section2{
+            display: flex;
+            margin-right: 15%;
+            justify-content: space-between;
+            text-align: right;
+           }
+    }
+    
+    
+    
+
+
+

@@ -5,7 +5,7 @@ const app = express();
 //requerir path
 const path = require('path');
 // uso de archivos estaticos
-const publicPath = path.resolve(__dirname, "public");
+const publicPath = path.resolve(__dirname, "../public");
 app.use(express.static(publicPath));
 
 
